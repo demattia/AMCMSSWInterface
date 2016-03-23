@@ -1,10 +1,8 @@
 <export>
 </export>
 <library   name="AMCMSSWInterfaceAMTrackProducer_plugins" file="*.cc">
-  <!--use   name="SLHCL1TrackTriggerSimulations/NTupleTools"/-->
-  <!--use   name="SLHCL1TrackTriggerSimulations/AMSimulation"/-->
-  <!--use   name="SLHCUpgradeSimulations/L1TrackTrigger"/-->
+  <use   name="CommonTools/UtilAlgos"/>
   <use   name="SimTracker/TrackTriggerAssociation"/>
-  <use name = "AMCMSSWInterface/AMTrackProducer"/>
-  <use name="eigen"/>
+  <use   name="root"/>
+  <use   name="rootrflx"/>
 </library>

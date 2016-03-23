@@ -16,14 +16,12 @@
 <use   name="DataFormats/StdDictionaries"/>
 <use   name="DataFormats/WrappedStdDictionaries"/>
 <use   name="TrackingTools/PatternTools"/>
-<!--use   name="SLHCUpgradeSimulations/L1TrackTrigger"/-->
-<!--use   name="LinearizedTrackFit/LinearizedTrackFit"/-->
-<use   name="eigen"/>
+<use   name="SLHCUpgradeSimulations/L1TrackTrigger"/>
 <!--use   name="clhep"/-->
 <!--use   name="boost"/-->
-<!--use   name="root"/-->
-<!--use   name="rootrflx"/-->
-<!--flags   EDM_PLUGIN="1"/-->
+<use   name="root"/>
+<use   name="rootrflx"/>
+<flags   EDM_PLUGIN="1"/>
 <export>
   <lib   name="1"/>
 </export>
